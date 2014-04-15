@@ -1,0 +1,2 @@
+# spitter
+### a Sails application
