@@ -1,9 +1,11 @@
-<h1>Signup</h1>
+<link href="/css/signin.css" rel="stylesheet">
+<form action="/user/login" method="POST"  class="form-signin" role="form">
+  <h2 class="form-signin-heading">Log in</h2>
 
-<p>Already have an account? <a href="/login">Log In</a>.</p>
-<form action="/user/login" method="POST">
-  <label>Email Address: <input type="text" name="email"></label>
-  <label>Password: <input type="password" name="password"></label>
-
-  <input type="submit" value="Log in">
+  <input id="email" type="text" name="email" class="form-control" placeholder="Email address" required autofocus>
+  <input type="password" name="password" class="form-control" placeholder="Password" required>
+  <label class="checkbox">
+    <input type="checkbox" value="remember-me"> Remember me
+  </label>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
 </form>
