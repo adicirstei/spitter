@@ -18,7 +18,9 @@ module.exports = {
       type: 'string',
       required: true,
       minLength: 6
-    }
+    },
+    username: 'string'
+    
    
   },
   

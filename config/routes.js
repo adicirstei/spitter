@@ -35,6 +35,12 @@ module.exports.routes = {
   '/': {
     controller: 'WelcomeController',
     action: 'index'
+  },
+  'get /signup': {
+    view: 'user/signup'
+  },
+  'get /login': {
+    view: 'user/login'
   }
   
   /*

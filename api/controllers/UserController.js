@@ -50,6 +50,9 @@ module.exports = {
         res.json({ error: 'User not found' }, 404);
       }
     });
+  },
+  signup: function (req, res) {
+    //res.view({});
   }
 
   
