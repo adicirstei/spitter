@@ -1,8 +1,7 @@
 {
   "name": "spitter",
-  "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "0.0.1",
+  "description": "a twitter clone",
   "dependencies": {
     "bcrypt": "^0.7.8",
     "ejs": "0.8.4",
@@ -16,7 +15,9 @@
     "debug": "node debug app.js"
   },
   "main": "app.js",
-  "repository": "",
-  "author": "",
-  "license": ""
+  "author": "Adrian Cirstei",
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x"
+  }
 }
